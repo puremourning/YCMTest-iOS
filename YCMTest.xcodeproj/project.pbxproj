@@ -13,6 +13,7 @@
 		B5CDB89F21E2833A0022B08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CDB89E21E2833A0022B08F /* Assets.xcassets */; };
 		B5CDB8A221E2833A0022B08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CDB8A021E2833A0022B08F /* LaunchScreen.storyboard */; };
 		B5CDB8A521E2833A0022B08F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CDB8A421E2833A0022B08F /* main.m */; };
+		B5CDB8AD21E284130022B08F /* ApplicationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5CDB8AB21E284130022B08F /* ApplicationTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B5CDB8A121E2833A0022B08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5CDB8A321E2833A0022B08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5CDB8A421E2833A0022B08F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5CDB8AB21E284130022B08F /* ApplicationTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ApplicationTest.cpp; sourceTree = "<group>"; };
+		B5CDB8AC21E284130022B08F /* ApplicationTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ApplicationTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B5CDB8A021E2833A0022B08F /* LaunchScreen.storyboard */,
 				B5CDB8A321E2833A0022B08F /* Info.plist */,
 				B5CDB8A421E2833A0022B08F /* main.m */,
+				B5CDB8AB21E284130022B08F /* ApplicationTest.cpp */,
+				B5CDB8AC21E284130022B08F /* ApplicationTest.hpp */,
 			);
 			path = YCMTest;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CDB8AD21E284130022B08F /* ApplicationTest.cpp in Sources */,
 				B5CDB89A21E283390022B08F /* ViewController.m in Sources */,
 				B5CDB8A521E2833A0022B08F /* main.m in Sources */,
 				B5CDB89721E283390022B08F /* AppDelegate.m in Sources */,
